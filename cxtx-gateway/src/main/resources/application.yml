@@ -1,0 +1,14 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.15:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true  #开启网关拉取nacos的服务后支持通过服务名调用
+
+

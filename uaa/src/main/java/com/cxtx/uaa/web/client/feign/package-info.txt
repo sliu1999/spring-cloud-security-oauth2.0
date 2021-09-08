@@ -1,0 +1,1 @@
+同一gateway下的restful client

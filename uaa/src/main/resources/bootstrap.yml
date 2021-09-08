@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: cxtx-uaa
+
+  cloud:
+    nacos: #配置注册中心
+      config:
+        server-addr: 192.168.1.15:8848 #Nacos配置中心地址
+        file-extension: yaml #文件拓展格式
